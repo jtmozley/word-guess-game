@@ -1,0 +1,26 @@
+* {
+    font-family: 'Sniglet', cursive;
+}
+
+body {
+    background-image: url('../images/pan-xiaozhen-689685-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    font-size: 1.2rem;
+}
+
+.display-4 {
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+}
+
+.lead {
+    margin-top: 1.3rem;
+    font-size: 1.35rem;
+}
+
+.jumbotron {
+    background-color: rgba(233, 236, 239, 0.85)
+}

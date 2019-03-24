@@ -63,6 +63,7 @@ document.onkeyup = function(event) {
     if (userInput == logged[indx]) {
       //if correct prints to document, update stats
       usersArray[indx] = userInput;
+      guessesLeft = 6;
       updateData();
       gameWin();
     } else {
